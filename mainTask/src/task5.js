@@ -14,7 +14,7 @@ function checkData({min, max}) {
 
 
 
-export default function findLuckyTicket(context) {
+export default function findLuckyTicket(context = {}) {
     if (checkData(context)) {
         let countLTEW = 0;
         let countLTDW = 0;

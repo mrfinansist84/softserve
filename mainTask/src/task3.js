@@ -16,7 +16,7 @@ function sortParametrs(a, b) {
     }
 }
 
-export default function sortTriangles(arrTriangles) {
+export default function sortTriangles(arrTriangles = []) {
     const result = [];
     let groupTriangles = arrTriangles.map(triangle => {
         return {
