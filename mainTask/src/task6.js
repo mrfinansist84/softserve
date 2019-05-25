@@ -1,4 +1,4 @@
-export default function findArrNumbers(numLength, square) {
+export default function findArrNumbers(numLength = 0, square = 0) {
     if (typeof numLength === 'number' &&
         typeof square === 'number' &&
         numLength > 0 &&

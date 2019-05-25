@@ -1,6 +1,6 @@
 import buildChessBoard from './src/task1.js';
 /* import buildChessBoard from './src/task2.js';*/
-import sortTriangles from './src/task3.js'; 
+import sortTriangles from './src/task3.js';
 import checkPalindrom from './src/task4.js';
 import findLuckyTicket from './src/task5.js';
 import findArrNumbers from './src/task6.js';
